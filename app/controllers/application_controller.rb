@@ -65,7 +65,7 @@ class ApplicationController < Sinatra::Base
     if count_skills < 10
       skill = User.find(params[:id]).skills.create(data)
       skill.to_json
-    else
+    else   
       {message: "You can only have 10 skills."}.to_json
     end
 
