@@ -114,6 +114,6 @@ DEPENDENCIES
   sinatra-cross_origin (~> 0.4.0)
   sqlite3 (~> 1.4)
   thin (~> 1.8)
-
+  
 BUNDLED WITH
    2.2.23
